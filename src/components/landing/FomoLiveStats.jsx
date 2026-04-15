@@ -5,7 +5,7 @@ function StatTile({ title, highlight, text }) {
     <div className="group relative h-full overflow-hidden rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-xl">
       <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-accent via-yellow-300 to-accent" />
       <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-neutral-500">{title}</p>
-      <p className="mt-3 inline-block rounded-full bg-accent/15 px-3 py-1 text-sm font-extrabold text-brand">{highlight}</p>
+      <p className="mt-3 inline-block rounded-full bg-accent/15 px-3 py-1 text-xl font-extrabold text-brand">{highlight}</p>
       <p className="mt-4 text-base font-medium leading-relaxed text-neutral-800">{text}</p>
     </div>
   )
@@ -22,8 +22,8 @@ export function FomoLiveStats() {
     {
       id: 'revenue',
       title: 'Revenue lift',
-      highlight: '8 times higher weekly revenue',
-      text: 'Gold sellers generate 8 times higher weekly revenue compared to the free plan seller.',
+      highlight: '8 times more revenue',
+      text: 'Gold sellers generate 8 times higher weekly revenue.',
     },
     {
       id: 'testing',

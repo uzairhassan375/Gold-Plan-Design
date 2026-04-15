@@ -83,7 +83,7 @@ function PlanHeader({ plan, variant }) {
 
 function FeatureHeader() {
   return (
-    <div className="relative flex min-h-[118px] flex-col justify-end overflow-hidden border-b border-neutral-200/70 px-3 pb-3 pt-4 md:min-h-[124px] md:px-4">
+    <div className="relative flex min-h-[118px] flex-col items-start justify-center overflow-hidden border-b border-neutral-200/70 px-3 py-3 text-left md:min-h-[124px] md:px-4">
       <div
         className="pointer-events-none absolute inset-0 bg-gradient-to-br from-neutral-800/[0.07] via-neutral-100 to-accent-muted/45"
         aria-hidden
@@ -95,12 +95,8 @@ function FeatureHeader() {
         }}
         aria-hidden
       />
-      <div className="relative">
-        <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand md:text-[11px]">Our Features</p>
-        <p className="mt-1 max-w-[16rem] text-[10px] leading-snug text-neutral-600 md:text-[11px]">
-          Same row across Free, Gold, and Diamond (Diamond matches Gold — only billing differs).
-        </p>
-        <p className="mt-2 text-[9px] font-semibold uppercase tracking-[0.18em] text-neutral-400">Free · Gold · Diamond</p>
+      <div className="relative flex h-full items-center justify-start w-full">
+        <p className="text-2xl font-extrabold tracking-tight text-brand md:text-3xl">Our Features</p>
       </div>
     </div>
   )

@@ -62,12 +62,6 @@ export function HeroSlider({ onCta }) {
                       Unlock Gold Plan
                     </Button>
                   </div>
-                  <a
-                    href="#fomo-stats"
-                    className="shrink-0 pl-1 text-sm font-medium text-neutral-300 underline-offset-4 transition-colors hover:text-accent sm:pl-2 md:pl-3"
-                  >
-                    See who is already in
-                  </a>
                 </div>
               </div>
 
@@ -79,11 +73,11 @@ export function HeroSlider({ onCta }) {
                 </div>
                 <div className="rounded-xl border border-white/10 bg-white/5 p-3 text-center backdrop-blur-md">
                   <p className="text-[10px] font-semibold uppercase tracking-widest text-neutral-500">
-                    Weekly revenue vs non-Gold
+                    weekly revenue of gold seller
                   </p>
                   <p className="mt-2 text-2xl font-bold tabular-nums leading-none text-accent">{mult}x</p>
                   <p className="mt-1 text-[11px] leading-snug text-neutral-300">
-                    typical Gold seller vs non-Gold (illustrative)
+                    as compared to non-gold seller
                   </p>
                   <div
                     className="mt-3 border-t border-white/10 pt-3"
