@@ -28,7 +28,7 @@ export function FomoLiveStats() {
     {
       id: 'testing',
       title: 'Testing efficiency',
-      highlight: '10 times less',
+      highlight: '10 times less cost',
       text: 'A gold seller spends 10 times less amount on product testing',
     },
   ]
